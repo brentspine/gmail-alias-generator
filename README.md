@@ -1,8 +1,8 @@
 # Gmail Alias Generator
 
-This repository helps you generate a big amount of gmail aliases. 
+Your Gmail address can be "scrambled". This allows you to have 10k or up to unlimited addresses linked to one inbox. This is done by adding periods or plus signs at the end of the username. 
 
-Some SEO text
+This repository helps you generate a big amount of gmail aliases automatically. 
 
 ## Table of Contents
 **[1. How do I run it?](#how-to-run)**<br>
