@@ -6,7 +6,7 @@
   Replit:      https://replit.com/@brentspine/GenerateGmailAliases
   GitHub:      https://github.com/brentspine/gmail-alias-generator
   License:     https://github.com/brentspine/gmail-alias-generator/blob/main/LICENSE
-  
+
   Made by:     Brentspine
   Year:        2024
   Website:     https://brentspine.de
@@ -26,6 +26,7 @@ import os
 max_dot_percentage = 0.43
 min_scramble_length = 7
 max_scramble_length = 12
+do_plus_scramble = False
 
 
 def on_exit():
@@ -52,13 +53,15 @@ def print_license(upper_hr=True, lower_hr=True):
 def gen_plus_alias():
   email_provider = "@googlemail.com" if random.randint(
       1, 3) == 1 else "@gmail.com"
-  return user_original + "+" + rchar(random.randint(min_scramble_length, max_scramble_length)) + email_provider
+  return user_original + "+" + rchar(
+      random.randint(min_scramble_length,
+                     max_scramble_length)) + email_provider
 
 
 def rchar(a):
   r = ""
   characters = string.ascii_letters + "1234567890"
-  for i in range(a):
+  for _ in range(a):
     r += random.choice(characters)
   return r
 
@@ -104,8 +107,9 @@ while True:
     addresses.append(r + domain)
     addresses.append(r + "@googlemail.com")
 
-  for i in range(len(addresses)):
-    addresses.insert((i * 2) + 1, gen_plus_alias())
+  if do_plus_scramble:
+    for i in range(len(addresses)):
+      addresses.insert((i * 2) + 1, gen_plus_alias())
 
   for caddress in addresses:
     print(caddress)
