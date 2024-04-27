@@ -26,7 +26,7 @@ import os
 max_dot_percentage = 0.43
 min_scramble_length = 7
 max_scramble_length = 12
-do_plus_scramble = False
+do_plus_scramble = True
 
 
 def on_exit():
