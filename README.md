@@ -8,7 +8,8 @@ This repository helps you generate a big amount of gmail aliases automatically.
 **[1. How do I run it?](#how-to-run)**<br>
 **[2. Walkthrough](#walkthrough)**<br>
 **[3. How does it work?](#how-does-it-work)**<br>
-**[4. Troubleshooting](#trouble-shooting)**
+**[4. Examples](#how-does-it-work)**<br>
+**[5. Troubleshooting](#trouble-shooting)**
 
 ## How do I run it? <span id="how-to-run"></span>
 You can run the code via the [Replit](https://replit.com/@brentspine/GenerateGmailAliases) project. Just go the link and click run at the top of the page.
@@ -71,6 +72,11 @@ If the file you want to export to already exists you can either choose the write
 **Examples**
 <br>&nbsp;&nbsp;-> e.xamp.lemai.l+89dfgascb@​googlemail.com forwards to example.mail@​gmail.com
 <br>&nbsp;&nbsp;-> m.y.c.ooladdres.s+xyz69@​gmail.com forwards to my.cool.address@​gmail.com
+
+## Gmail alias list examples <span id="examples"></span>
+
+I've given some examples in the how does it work section, but I've also generated some files as example outputs. You can find them [here](https://github.com/brentspine/gmail-alias-generator/tree/main/examples).
+
 
 ## Still have problems or questions? <span id="trouble-shooting"></span>
 
