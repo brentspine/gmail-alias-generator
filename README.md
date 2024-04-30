@@ -8,7 +8,7 @@ This repository helps you generate a big amount of gmail aliases automatically.
 **[1. How do I run it?](#how-to-run)**<br>
 **[2. Walkthrough](#walkthrough)**<br>
 **[3. How does it work?](#how-does-it-work)**<br>
-**[4. Examples](#how-does-it-work)**<br>
+**[4. Examples](#examples)**<br>
 **[5. Troubleshooting](#trouble-shooting)**
 
 ## How do I run it? <span id="how-to-run"></span>
